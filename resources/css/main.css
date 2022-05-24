@@ -66,8 +66,8 @@ h3 {
 h1, .h, .sp {
     margin-left: 7px;;
 }
-@media (max-width: 480px) {
-    .header {
+@media screen and (max-width: 480px) {
+    h1 {
         text-align: center;
     }
 }
